@@ -1,0 +1,14 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: transaction
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transaction_db
+    username: postgres
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
